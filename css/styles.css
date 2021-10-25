@@ -377,7 +377,8 @@ main {
 
 .gallery {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  flex-basis: 100%; }
 
 main h1 {
   padding-left: 1rem; }
@@ -414,19 +415,22 @@ footer {
     padding: .5rem 1rem; }
 
   /*----------- MAIN --------------*/
+  .gallery {
+    flex-basis: 50%; }
+
   /*----------- FOOTER --------------*/ }
 /* end of media query */
 @media only screen and (min-width: 3000px) {
   header, nav, main, footer {
-    max-width: 2000px;
+    max-width: 71.25rem;
     margin: auto; }
 
   /*----------- BODY --------------*/
-  .gallery {
-    padding-right: 50px; }
-
   /*----------- HEADER --------------*/
   /*----------- NAVIGATION --------------*/
   /*----------- MAIN --------------*/
+  .gallery {
+    flex-basis: 33%; }
+
   /*----------- FOOTER --------------*/ }
 /* end of media query */

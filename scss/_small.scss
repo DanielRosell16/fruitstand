@@ -70,9 +70,11 @@ main {
     min-height: 10rem;
 }
 
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
+    flex-basis: 100%;
 }
 
 main h1 {
