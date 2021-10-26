@@ -420,9 +420,9 @@ footer {
 
   /*----------- FOOTER --------------*/ }
 /* end of media query */
-@media only screen and (min-width: 3000px) {
+@media only screen and (min-width: 1140px) {
   header, nav, main, footer {
-    max-width: 71.25rem;
+    max-width: 1140px;
     margin: auto; }
 
   /*----------- BODY --------------*/
@@ -430,7 +430,7 @@ footer {
   /*----------- NAVIGATION --------------*/
   /*----------- MAIN --------------*/
   .gallery {
-    flex-basis: 33%; }
+    flex-basis: 25%; }
 
   /*----------- FOOTER --------------*/ }
 /* end of media query */
