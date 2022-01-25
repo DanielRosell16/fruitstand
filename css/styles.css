@@ -401,7 +401,7 @@ footer {
     border: none;
     padding: 20px; }
   nav ul li.active a {
-    background-color: none; }
+    background-color: #3a9fc0; }
 
   /*----------- MAIN --------------*/
   .gallery {

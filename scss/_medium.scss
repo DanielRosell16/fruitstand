@@ -20,9 +20,7 @@ nav {
         border: none;
         padding: 20px;
     }
-    ul li.active a {
-        background-color: none;
-    }
+    ul li.active a {background-color: darken($menuColor, 30%);}
     
 } //end of nav
 
